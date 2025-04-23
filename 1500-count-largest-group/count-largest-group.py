@@ -23,4 +23,4 @@ class Solution(object):
         count = group_sizes.count(max_size)
         #print(count)
         return count 
-    
+        
