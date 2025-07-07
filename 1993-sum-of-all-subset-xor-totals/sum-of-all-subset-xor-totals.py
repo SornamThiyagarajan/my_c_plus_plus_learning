@@ -9,4 +9,4 @@ class Solution:
             exclude = dfs(index + 1, current_xor)
             return include + exclude
         
-        return dfs(0, 0)
+        return dfs(0, 0)  ###
