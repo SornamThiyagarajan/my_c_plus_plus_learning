@@ -18,4 +18,4 @@ class Solution:
         if not root:
             return True
         
-        return isMirror(root.left, root.right)  ###
+        return isMirror(root.left, root.right)  ###sornam.t july,10. 2025
