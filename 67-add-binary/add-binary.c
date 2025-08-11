@@ -1,7 +1,9 @@
 char* addBinary(char* a, char* b) {
-    
+    // Store length of a and b 
     int lenA = strlen(a);
     int lenB = strlen(b);
+    
+    //Initialize two indices of i and j pointing to the last charcter of string a and b and initalize carry as 0 
     int i = lenA - 1;
     int j = lenB - 1;
     int carry = 0;
