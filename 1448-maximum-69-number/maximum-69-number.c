@@ -9,10 +9,13 @@ int maximum69Number (int num) {
             break;
         }
      }
-     //num = atoi(str_num);
+     num = atoi(str_num);
+
+     /* Just to try with a different approach without using atoi conversion for string to num 
      int res = 0; 
      for (int i=0; str_num[i]!='\0'; i++){
         res = res * 10 + (str_num[i] - '0');
      }
-     return res;
+     return res;*/
+     return num; 
 }
