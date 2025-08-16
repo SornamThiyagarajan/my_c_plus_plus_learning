@@ -9,6 +9,10 @@ int maximum69Number (int num) {
             break;
         }
      }
-     num = atoi(str_num);
-     return num;
+     //num = atoi(str_num);
+     int res = 0; 
+     for (int i=0; str_num[i]!='\0'; i++){
+        res = res * 10 + (str_num[i] - '0');
+     }
+     return res;
 }
